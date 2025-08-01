@@ -1,0 +1,1 @@
+MARKET_API = 'https://api.warframe.market/v2/'
