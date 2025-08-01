@@ -12,9 +12,9 @@ headers = {
 print(items_url)
 item_list = []
 
-
 try:
     item_list = requests.get(items_url, headers=headers)
-    print(item_list)
+    for item in item_list: 
+        print(item['data'])
 except Exception as e:
     print(e)
